@@ -1,0 +1,40 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <div id="h-clm" class="clm">
+                <h3>HOME</h3>
+                <div id="h-scr-box" class="scr-box">
+                    <h4 id="h-scr" class="scr">0</h4>
+                </div>
+                <span class="pt-btns" id="h-pt-btns">
+                    <button onclick="incrementHomeOne()" id="h-plus1-btn" class="btn">+1</button>
+                    <button onclick="incrementHomeTwo()" id="h-plus2-btn" class="btn">+2</button>
+                    <button onclick="incrementHomeThree()" id="h-plus3-btn" class="btn">+3</button>
+                </span>
+                <span class="pt-btns" id="g-pt-btns">
+                    <button onclick="decrementHome()" id="h-minus1-btn" class="minus1">-1</button>
+                    <button onclick="resetHome()" id="h-reset-btn" class="reset">RESET</button>
+                </span>
+            </div>
+            <div id="g-clm" class="clm">
+                <h3>GUEST</h3>
+                <div id="g-scr=box" class="scr-box">
+                    <h4 id="g-scr" class="scr">0</h4>
+                </div>
+                <span class="pt-btns" id="g-pt-btns">
+                    <button onclick="incrementGuestOne()" id="h-plus1-btn" class="btn">+1</button>
+                    <button onclick="incrementGuestTwo()" id="h-plus2-btn" class="btn">+2</button>
+                    <button onclick="incrementGuestThree()" id="h-plus3-btn" class="btn">+3</button>
+                </span>
+                <span class="pt-btns" id="g-pt-btns">
+                    <button onclick="decrementGuest()" id="h-minus1" class="minus1">-1</button>
+                    <button onclick="resetGuest()" id="h-reset" class="reset">RESET</button>
+                </span>
+            </div>
+        </div>
+        <script src="index.js"></script>
+    </body>
+</html>
